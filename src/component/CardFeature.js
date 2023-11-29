@@ -17,7 +17,7 @@ const CardFeature = ({ image, name, price, category, loading, id, hasDiscount, d
   };
 
   return (
-    <div className="w-full min-w-[200px] max-w-[250px] bg-white hover:shadow-lg drop-shadow-lg py-5 px-4 cursor-pointer flex flex-col ">
+    <div className="w-full min-w-[200px] text-center max-w-[250px] bg-white hover:shadow-lg drop-shadow-lg py-5 px-4 cursor-pointer flex flex-col ">
       {image ? (
         <>
           <Link

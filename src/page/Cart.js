@@ -69,7 +69,7 @@ const Cart = () => {
                     id={el._id}
                     name={el.name}
                     image={el.image}
-                    category={el.category}
+                    category={el.category?.name || ""}
                     qty={el.qty}
                     total={el.total}
                     price={el.price}
